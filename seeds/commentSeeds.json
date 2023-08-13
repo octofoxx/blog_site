@@ -1,0 +1,27 @@
+[
+    {
+        "comment_content": "Boring as hell.",
+        "createdOn": "June 15, 2023",
+        "user_id": 3,
+        "blog_id": 1
+    },
+    {
+        "comment_content": "Didn't understand a word of it.",
+        "createdOn": "June 15, 2023",
+        "user_id": 3,
+        "blog_id": 2
+    },
+    {
+        "comment_content": "Duly satisfying, as a cup filled to the brim.",
+        "createdOn": "June 15, 2023",
+        "user_id": 2,
+        "blog_id": 1
+    },
+    {
+        "comment_content": "I can sympathize with this writer's..... desire for another.",
+        "createdOn": "June 15, 2023",
+        "user_id": 1,
+        "blog_id": 3
+    }
+    
+]

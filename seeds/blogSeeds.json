@@ -1,0 +1,20 @@
+[
+    {
+        "title": "An essay on the superiority of Durin lifestyle",
+        "description": "It has come to the attention of this writer that many do not understand why the Durin's lifestyle is far superior to our own. I shall account the details so that we all may follow in their example and better understand how to care for the Durins aboard the landship....",
+        "createdOn": "June 12th 2023",
+        "user_id": 1
+    },
+    {
+        "title": "A collection of musings",
+        "description": "Clouds ranged as billows, distant-run roads withered. I, departed of the vistas, sailed a ferry in late autumn.",
+        "createdOn": "June 13th 2023",
+        "user_id": 2
+    },
+    {
+        "title": "Texas",
+        "description": "Texas, Texas, Texas, she can't keep me away forever! T-E-X-A-S! I asked the doctor to put you on my team, or be the leader of it, for the next mission! Maybe we can share a milliefoglie! Muhahaha!",
+        "createdOn": "June 11th 2023",
+        "user_id": 3
+    }
+]
