@@ -40,10 +40,6 @@ header {
     background-color: silver;
   }
   
-  #logout {
-    background-color: blue;
-  }
-  
   #titleInput,
   #bodyInput,
   #comment,
