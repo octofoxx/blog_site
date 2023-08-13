@@ -25,19 +25,19 @@ Blog.init(
             defaultValue: DataTypes.NOW
         },
         user_id: {
-            type: DataTypes.STRING,
+            type: DataTypes.INTEGER,
             references: {
-                model: 'user',
-                key: 'id'
-            }
-        }
+                model: "User",
+                key: "id",
+            },
+        },
     },
     {
         sequelize,
           timestamps: false,
           freezeTableName: true,
           underscored: true,
-          modelName: 'blog',
+          modelName: 'Blog',
     }
 );
 

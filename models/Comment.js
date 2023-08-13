@@ -21,26 +21,26 @@ Comment.init(
             defaultValue: DataTypes.NOW
         },
         user_id: {
-            type: DataTypes.STRING,
+            type: DataTypes.INTEGER,
             references: {
-                model: 'user',
-                key: 'id'
+                model: "User",
+                key: "id",
             }
         },
         blog_id: {
             type: DataTypes.INTEGER,
             references: {
-              model: "blog",
+              model: "Blog",
               key: "id",
             },
-        }
+        },
     },
     {
         sequelize,
           timestamps: false,
           freezeTableName: true,
           underscored: true,
-          modelName: 'comment',
+          modelName: 'Comment',
     }
 );
 
