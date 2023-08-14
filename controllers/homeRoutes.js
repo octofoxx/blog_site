@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Blog, User, Comment } = require("../models/allModels");
+const { Blog, User, Comment } = require("../models");
 const withAuth = require("../utils/auth");
 
 //get all blogs and appends with user name and comments

@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Comment } = require('../../models/allModels');
+const { Comment } = require('../../models');
 
 // Route to create comments
 router.post("/", async (req, res) => {
