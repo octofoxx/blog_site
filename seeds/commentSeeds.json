@@ -1,5 +1,11 @@
 [
     {
+        "comment_content": "Duly satisfying, as a cup filled to the brim.",
+        "createdOn": "06/16/2023",
+        "user_id": 2,
+        "blog_id": 1
+    },
+    {
         "comment_content": "Boring as hell.",
         "createdOn": "06/15/2023",
         "user_id": 3,
@@ -10,12 +16,6 @@
         "createdOn": "06/15/2023",
         "user_id": 3,
         "blog_id": 2
-    },
-    {
-        "comment_content": "Duly satisfying, as a cup filled to the brim.",
-        "createdOn": "06/16/2023",
-        "user_id": 2,
-        "blog_id": 1
     },
     {
         "comment_content": "I can sympathize with this writer's..... desire for another.",

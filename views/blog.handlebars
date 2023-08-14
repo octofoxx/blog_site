@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="card text-dark shadow mb-3 blog-main">
+            <div class="text-center mx-auto p-3">
+                <h2>{{title}}</h2>
+                <p>Created by {{User.name}} on {{format_date createdOn}}</p>
+                <p>{{description}}</p>
+                <button class="btn btn-dark" id="editBtn">Edit</button>
+                <button class="btn btn-dark" id="deleteBtn">Delete</button>
+            </div>
+
+            <div class="text-center">
+                <h3>Comments</h3>
+                {{#each comments as |comment| }}
+                    <div>
+                        <p>{{comment.comment_content}} by {{comment.User.name}} on {{format_date comment.createdOn}}</p>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
