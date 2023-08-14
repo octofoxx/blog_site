@@ -18,4 +18,4 @@ const deleteBlog = async (event) => {
   
   for (let i = 0; i < deleteButton.length; i++) {
     deleteButton[i].addEventListener("click", deleteBlog);
-  }
+  };
