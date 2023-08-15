@@ -7,16 +7,17 @@ const commentData = require('./commentSeeds.json');
 
 const seedDatabase = async () => {
     await sequelize.sync({ force: true });
-  
-    const users = await User.bulkCreate(userData, {
-      individualHooks: true,
-      returning: true,
-    });
+    
+    //for loops force things to be constant, bulkCreate was assigning users at random
+    for (const user of userData) {
+      await User.create({
+        ...user
+      });
+    }
   
     for (const blog of blogData) {
       await Blog.create({
-        ...blog,
-        user_id: users[Math.floor(Math.random() * users.length)].id,
+        ...blog
       });
     }
 
