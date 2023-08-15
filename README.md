@@ -36,6 +36,8 @@
 
   https://github.com/octofoxx/blog_site - repo for this project.
 
+  https://octofoxx-blog-site-bcbdc70fafc2.herokuapp.com/ - deployed site
+
 ## [Tests](#table-of-contents)
   
   No test suites for this project.
